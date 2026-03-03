@@ -29,4 +29,4 @@ with smtplib.SMTP("smtp.gmail.com", 587) as server:
     server.login(sender_email, app_password)
     server.send_message(msg)
 
-print("✅ Email sent successfully!")
+print("Email sent successfully!")
